@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="194.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Form thông tin">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <TextField layoutX="194.0" layoutY="77.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="80.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ tên:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="86.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="90.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuổi:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <TextField layoutX="194.0" layoutY="117.0" />
+      <TextField layoutX="194.0" layoutY="159.0" />
+      <TextField layoutX="194.0" layoutY="198.0" />
+      <TextArea layoutX="93.0" layoutY="296.0" prefHeight="90.0" prefWidth="414.0" />
+      <Text layoutX="80.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thông tin bạn vừa nhập:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
